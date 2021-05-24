@@ -52,4 +52,3 @@ $result = Invoke-CosmoDBRequest-Method GET -EndPoint $EndPoint  -DatabaseId $Dat
 ##example POST request
 $result = Invoke-CosmoDBRequest -Method POST -Body $DatabasePayloadJson -DatabaseOrderID $DatabasePayload.id -EndPoint $EndPoint  -DatabaseId $DatabaseId -CollectionId $CollectionId -DatabaseSigningKey $DatabaseSigningKey
                             
-    
