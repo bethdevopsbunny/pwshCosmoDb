@@ -45,6 +45,7 @@ function Invoke-CosmoDBRequest {
                
 }
 
+
 ##example GET request
 $result = Invoke-CosmoDBRequest-Method GET -EndPoint $EndPoint  -DatabaseId $DatabaseId -CollectionId $CollectionId -DatabaseSigningKey $DatabaseSigningKey
 
